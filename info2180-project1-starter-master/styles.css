@@ -233,10 +233,13 @@ article img{
 }
 
 .overview-hero-image{
-    height:10px;
-    width:100px;
+   width:50%;
 }
 
+img{
+    width:200px;
+    height:200px;
+}
 .card img{
     grid-row:1;
     margin:1%;
