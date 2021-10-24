@@ -14,10 +14,6 @@ body {
     align-items:center;
 }
 
-:root {
-    
-    font-size: 18px;
-}
 
 header{
     background-color: white;
@@ -79,9 +75,6 @@ a:hover {
     padding-right: 10%;
 }
 
-.overview-hero-image{
-
-}
 
 .learn-about h2{
     font-size:24px;
@@ -109,9 +102,7 @@ a:hover {
     box-shadow: 0 4px 6px 1px rgba(0, 0, 0, 0.1) 0 2px 4px -1px rgba(0, 0)
 }
 
-.card img{
 
-}
 
 .card-body{
     grid-row: 2;
@@ -161,6 +152,9 @@ a:hover {
      width:100%;
 }
 
+article a{
+    color:#5A67D8;
+}
 .stories{
     padding-top:105px;
     padding-bottom:105px;
@@ -180,14 +174,6 @@ a:hover {
 
 .stories h3{
     font-size:18px;
-}
-
-article img{
-
-}
-
-article a{
-    color:#5A67D8;
 }
 
 .newsletter{
@@ -234,6 +220,28 @@ form input{
     outline:none;
     border:none;
     border-radius:5px;
+
+}
+
+article img{
+    float:left;
+    height:200px;
+    width:200px;
+    border:2px;
+    border-radius:90%;
+    margin:5.5%;
+}
+
+.overview-hero-image{
+    height:10px;
+    width:100px;
+}
+
+.card img{
+    grid-row:1;
+    margin:1%;
+    height:190px;
+    width:240px;
 
 }
 
